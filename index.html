@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -33,6 +32,17 @@ header h1{
 
 header p{
     font-size:20px;
+}
+
+/* IMAGEM DO PALMEIRAS */
+header img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-top:20px;
+    border:4px solid white;
+    box-shadow:0 5px 12px rgba(0,0,0,0.3);
 }
 
 main{
@@ -84,62 +94,81 @@ footer{
 </style>
 
 </head>
+
 <body>
 
 <header>
+
     <h1>💚 PALMEIRAS: O GIGANTE VERDÃO! 💚</h1>
+
     <p>Blog criado por <strong>Clara</strong></p>
+
+    <!-- IMAGEM -->
+    <img src="imagens/foto.jpg" alt="Palmeiras">
+
 </header>
 
 <main>
 
-<div class="card">
-    <h2>Bem-vindo(a)!</h2>
-    <p>
-        Seja bem-vindo ao meu blog sobre o Palmeiras! Aqui você encontra
-        curiosidades, história, conquistas e muita paixão pelo Verdão.
-    </p>
-</div>
+    <div class="card">
 
-<div class="card">
-    <h2>🏆 Grandes Conquistas</h2>
-    <ul>
-        <li>Libertadores da América</li>
-        <li>Campeonato Brasileiro</li>
-        <li>Copa do Brasil</li>
-        <li>Paulistão</li>
-    </ul>
-</div>
+        <h2>Bem-vindo(a)!</h2>
 
-<div class="card">
-    <h2>💚 Sobre o Palmeiras</h2>
-    <p>
-        O Palmeiras é um dos clubes mais tradicionais e vencedores do Brasil.
-        Sua torcida acompanha o time com muita paixão e orgulho em cada partida.
-    </p>
-</div>
+        <p>
+            Seja bem-vindo ao meu blog sobre o Palmeiras! Aqui você encontra
+            curiosidades, história, conquistas e muita paixão pelo Verdão.
+        </p>
 
-<button onclick="mensagem()">Clique aqui!</button>
+    </div>
+
+
+    <div class="card">
+
+        <h2>🏆 Grandes Conquistas</h2>
+
+        <ul>
+            <li>Libertadores da América</li>
+            <li>Campeonato Brasileiro</li>
+            <li>Copa do Brasil</li>
+            <li>Paulistão</li>
+        </ul>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>💚 Sobre o Palmeiras</h2>
+
+        <p>
+            O Palmeiras é um dos clubes mais tradicionais e vencedores do Brasil.
+            Sua torcida acompanha o time com muita paixão e orgulho em cada partida.
+        </p>
+
+    </div>
+
+
+    <button onclick="mensagem()">Clique aqui!</button>
 
 </main>
 
+
 <footer>
+
     <p>© 2026 - Blog da Clara 💚 Avanti Palestra!</p>
+
 </footer>
 
+
 <script>
+
 function mensagem(){
+
     alert("💚 Olá, Clara! Seja bem-vinda ao seu Blog do Palmeiras! Avanti Palestra! 💚");
 
-
-
-<img src="imagens/foto.jpg" alt="Minha foto">
-
-
-
 }
+
 </script>
 
 </body>
 </html>
-
